@@ -35,6 +35,7 @@ In *Proceedings of the Third Workshop on Computational Models of Reference, Anap
   * For "clusters" and "pred_mentions" the mentions contain two properties \[start_index, end_index\] the indices are counted in document level and both inclusive.
   * the *conll_test_path* is the path to the file of gold data in CoNLL format, see the [CoNLL 2012 shared task page](http://conll.cemantix.org/2012/introduction.html) for more detail
   * For how to create the json and CoNLL files please follow the instractions from the [Lee et al (2018)](https://github.com/kentonl/e2e-coref).
+  * You can preprocess the Arabic tokens by using `python preprocess_arabic.py test.jsonlines test.cleaned.jsonlines`.
       
 * Then you need to run the `extract_bert_features.sh` to compute the BERT embeddings for the test set.
 * Then use `python evaluate.py config_name` to start your evaluation.
