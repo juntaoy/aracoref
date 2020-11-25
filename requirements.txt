@@ -1,0 +1,7 @@
+tensorflow-gpu==1.7.0
+h5py
+pyhocon
+numpy
+scipy
+sklearn-learn
+tqdm
