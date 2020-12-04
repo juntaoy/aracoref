@@ -3,7 +3,7 @@
 ## Introduction
 This repository contains code introduced in the following paper:
  
-**[Neural Coreference Resolution for Arabic](https://arxiv.org/abs/2011.00286)**  
+**[Neural Coreference Resolution for Arabic](https://www.aclweb.org/anthology/2020.crac-1.11/)**  
 Abdulrahman Aloraini*, Juntao Yu* and Massimo Poesio 	`*equal contribution`  
 In *Proceedings of the Third Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC@COLING)*, 2020.
 
