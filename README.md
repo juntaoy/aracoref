@@ -13,7 +13,7 @@ In *Proceedings of the Third Workshop on Computational Models of Reference, Anap
 * After that run `setup.sh` to download the fastText embeddings that required by the system and compile the Tensorflow custom kernels.
 
 ## To use a pre-trained model
-* Pre-trained models can be download from [this link](https://www.dropbox.com/s/24sw519xjgmxnf6/best_models_crac2020.zip?dl=0). We provide two pre-trained models:
+* Pre-trained models can be download from [this link](https://essexuniversity.box.com/s/4ors9kax5zfn8r1q63uetftyugasn096). We provide two pre-trained models:
    * One (arabic_cleaned_arabert) for Lee et al (2018) style training.
    * The second model (arabic_cleaned_arabert_e2e_annealing) that uses the predicted mention output from the [Yu et al (2020)](https://github.com/juntaoy/dali-md) and also the best model from our paper.
    * We include the predicted mentions used in our evaluation for all three datasets (train, dev and test sets).
